@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import 'bootstrap/dist/css/bootstrap.css';
 
 export const metadata: Metadata = {
   title: "Create Next App",
