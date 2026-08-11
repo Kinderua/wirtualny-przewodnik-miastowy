@@ -1,6 +1,8 @@
+import Header from "./components/Header";
+
 const Home = () => {
   return (<>
-    <h1>Hi</h1>
+    <Header></Header>
   </>)
 }
 
