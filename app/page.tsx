@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 const Home = () => {
   return (<>
     <Header></Header>
-    <Button color="primary" onClick={()=> console.log("Clicked")}>Przycisk</Button>
+    <Button color="primary">Przycisk</Button>
   </>)
 }
 
-export default Home
+export default Home 
