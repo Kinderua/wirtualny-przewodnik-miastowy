@@ -1,6 +1,9 @@
+
+import { useState } from 'react';
+import Alert from "./components/Alert";
+
 "use client";
 
-import Alert from "./components/Alert";
 
 interface Props {
     color?: string;
@@ -9,10 +12,12 @@ interface Props {
 
 const Button = ({color, children} : Props) => {
 
+    const [isActive, setIsActive] = useState(false)
+
     return (
         <>
-
-            <button type="button" className={"btn btn-" + color} onClick={<Alert></Alert>}>{children}</button>
+             {isActive && <Alert></Alert>}
+            <button type="button" className={"btn btn-" + color} onClick={() => setIsActive(!isActive)}>{children}</button>
         </>
     )
 }
