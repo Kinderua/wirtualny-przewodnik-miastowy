@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import Alert from "./components/Alert";
+import Alert from ".//Alert";
 
 "use client";
 
