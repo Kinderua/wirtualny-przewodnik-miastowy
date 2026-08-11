@@ -1,6 +1,6 @@
 # TODO LIST | Important things
 
-Osoba 2 — Frontend + mapa
+Frontend + mapa
 
 Dni 1–2
 
