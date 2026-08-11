@@ -3,7 +3,7 @@
 interface Props {
     color?: string;
     children: string;
-    onClick: () => void
+    onClick: () => ReactNode
 }
 
 const Button = ({color, children, onClick} : Props) => {
