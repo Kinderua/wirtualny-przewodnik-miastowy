@@ -1,6 +1,6 @@
 interface Props {
-    whatButton: string
-    text: string
+    whatButton: string;
+    text: string;
 }
 
 const Button = ({whatButton, text} : Props) => {
