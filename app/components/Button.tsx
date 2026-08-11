@@ -1,12 +1,12 @@
 interface Props {
-    whatButton: string;
+    color: string;
     children: string;
 }
 
-const Button = ({whatButton, children} : Props) => {
+const Button = ({color, children} : Props) => {
     return (
         <>
-            <button type="button" className={"btn btn-" + whatButton}>{children}</button>
+            <button type="button" className={"btn btn-" + color}>{children}</button>
         </>
     )
 }
