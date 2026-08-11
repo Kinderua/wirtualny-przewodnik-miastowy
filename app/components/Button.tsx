@@ -1,7 +1,7 @@
 interface Props {
     color: string;
     children: string;
-    onClick() : ()=>void;
+    onClick : ()=>void;
 }
 
 const Button = ({color, children} : Props) => {
