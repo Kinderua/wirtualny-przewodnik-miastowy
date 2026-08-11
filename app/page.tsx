@@ -6,9 +6,12 @@ import Alert from "./components/Alert";
 import 'bootstrap/dist/css/bootstrap.css';
 
 const Home = () => {
+
+  const [isActive,setIsActive] = useEffect(false)
+
   return (<>
     <Header></Header>
-    <Button color="secondary" onClick={()=>{return <Alert></Alert>}}>Button</Button>
+    <Button color="secondary">Button</Button>
   </>)
 }
 

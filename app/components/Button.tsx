@@ -1,17 +1,18 @@
 "use client";
 
+import Alert from "./components/Alert";
+
 interface Props {
     color?: string;
     children: string;
-    onClick: () => ReactNode
 }
 
-const Button = ({color, children, onClick} : Props) => {
+const Button = ({color, children} : Props) => {
 
     return (
         <>
 
-            <button type="button" className={"btn btn-" + color} onClick={onClick}>{children}</button>
+            <button type="button" className={"btn btn-" + color} onClick={<Alert></Alert>}>{children}</button>
         </>
     )
 }
