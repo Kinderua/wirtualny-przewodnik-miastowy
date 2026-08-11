@@ -1,8 +1,7 @@
+"use client";
 
 import { useState } from 'react';
-import Alert from ".//Alert";
-
-"use client";
+import Alert from "./Alert";
 
 
 interface Props {
