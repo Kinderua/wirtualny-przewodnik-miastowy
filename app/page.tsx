@@ -4,7 +4,7 @@ import Button from "./components/Button";
 const Home = () => {
   return (<>
     <Header></Header>
-    <Button whatButton="primary">Przycisk</Button>
+    <Button color="primary">Przycisk</Button>
   </>)
 }
 
