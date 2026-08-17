@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import 'bootstrap/dist/css/bootstrap.css';
+import 'tailwindcss'
 
 export const metadata: Metadata = {
   title: "Create Next App",

@@ -1,6 +1,8 @@
 const Header = () => {
   return (<>
-    <h1>Hi</h1>
+    <div className="justify-center align-middle">
+      <h1>Witaj użytkowniku</h1>
+    </div>
   </>)
 }
 
